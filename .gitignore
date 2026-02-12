@@ -1,2 +1,35 @@
-.vscode/
+# --- BANCO DE DADOS & SESSÕES ---
+# Ignora qualquer arquivo .db na raiz ou subpastas
+*.db
+*.sqlite3
+
+# Ignora a pasta de sessão do WhatsApp (contém cookies de login)
+data/session/
+
+# Ignora logs de erro
+*.log
+
+# --- AMBIENTE VIRTUAL & CONFIG ---
+# Variáveis de ambiente (senhas/tokens)
 .env
+
+# Ambientes virtuais Python
+venv/
+.venv/
+env/
+
+# --- PYTHON ---
+# Arquivos compilados/cache (lixo do python)
+__pycache__/
+*.py[cod]
+
+# --- PLAYWRIGHT ---
+# Resultados de testes ou relatórios gerados
+test-results/
+playwright-report/
+
+# --- IDE / SISTEMA ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
