@@ -60,7 +60,7 @@ function App() {
   return (
     <div className="dashboard-container">
       <header>
-        <h1>🦁 Oryon Dashboard</h1>
+        <h1>Oryon Dashboard</h1>
       </header>
 
       <Navbar 
